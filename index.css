@@ -789,12 +789,12 @@ footer p {
     }
 
     .navbar-text a:nth-child(-n+5) {
-        margin: 0;
+        margin: auto;
+        margin-bottom: 5px;
     }
 
     .navbar-text a {
         text-align: center;
-        margin-top: 5%;
         margin-bottom: 5px;
     }
 
