@@ -777,6 +777,12 @@ footer p {
 }
 
 @media only screen and (max-width: 834px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
     .navbar-text {
         display: grid;
         margin-left: 0;
@@ -788,6 +794,7 @@ footer p {
 
     .navbar-text a {
         text-align: center;
+        margin-top: 5%;
         margin-bottom: 5px;
     }
 
