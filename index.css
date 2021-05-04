@@ -780,7 +780,7 @@ footer p {
 
     html,
     body {
-        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     .navbar-text {
