@@ -1,0 +1,1309 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+#home__title article,
+.home__button,
+#treatment__preparations div p,
+#prescribing-information p,
+#side-effects p,
+#contact-us p,
+footer div,
+#footer__privacy,
+form {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+}
+
+.navbar {
+    width: 100%;
+    padding-top: 2px;
+    background: #FFFFFF;
+}
+
+#logo-container {
+    width: 160px;
+    height: 48px;
+    margin-left: 6.5%;
+}
+
+.navbar-text {
+    padding-top: 5px;
+    margin: auto;
+    margin-left: 18.8%;
+}
+
+.navbar-text a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    opacity: 0.5;
+
+    color: #0A2D44;
+}
+
+.navbar-text a:nth-child(-n+5) {
+    margin-right: 26px;
+}
+
+.navbar-text a:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+
+#home {
+    width: 100%;
+    min-height: 498px;
+    height: 100%;
+
+}
+
+#home__title {
+    width: 59%;
+}
+
+#home__title div {
+    margin-left: 13%;
+    margin-top: -1%;
+}
+
+#home__title h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 112px;
+
+    color: #0196DD;
+}
+
+#home__title p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: 26px;
+
+    color: #0196DD;
+}
+
+#home__title article {
+    width: 498px;
+
+    margin-bottom: 40px;
+
+    position: relative;
+    top: 15px;
+    color: #0A2D44;
+}
+
+.home__button {
+    font-family: 'Open Sans';
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    padding: 14px 20px 14px 20px;
+    background-color: #F20069;
+
+    color: #FFFFFF;
+}
+
+.home__button:hover {
+    text-decoration: none;
+}
+
+#home__photo {
+    width: 41%;
+    margin-top: 5px;
+}
+
+#symptoms {
+    width: 100%;
+    height: 448px;
+    padding-top: 80px;
+
+    background: #F5F5F5;
+}
+
+#symptoms h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    margin: auto;
+    margin-bottom: 2.5%;
+    text-align: center;
+    padding: 2px 5px 0 10px;
+    color: #0196DD;
+}
+
+#points {
+    display: flex;
+    flex-wrap: wrap;
+    height: 70%
+}
+
+.first__point {
+    display: flex;
+    align-items: center;
+    width: 410px;
+    height: 60px;
+    margin: 31px 20px 0px 96px;
+}
+
+.second__point {
+    display: flex;
+    align-items: center;
+    width: 410px;
+    height: 60px;
+    margin: 14px 21px 0px 96px;
+}
+
+#points img {
+    margin-right: 6%;
+    margin-left: -2px;
+}
+
+#detalization {
+    width: 100%;
+    min-height: 694px;
+    height: auto;
+    padding-top: 82px;
+
+    background: #FAFAFA;
+}
+
+#detalization__graph {
+    display: flex;
+}
+
+#detalization h1 {
+    width: fit-content;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    margin-left: 30.7%;
+    margin-bottom: 60px;
+
+    color: #0196DD;
+}
+
+#detalization__graph img {
+    float: left;
+    margin-left: 10.7%;
+}
+
+#detalization__graph section {
+    width: 28%;
+    height: 168px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 12.6%;
+}
+
+#statistic p {
+    margin-bottom: 25px;
+}
+
+#detalization__link {
+    margin-top: 21%;
+}
+
+#use-cases {
+    width: 100%;
+    height: auto;
+    min-height: 1990px;
+    padding-top: 73px;
+    background: #F5F5F5;
+}
+
+#use-cases__persons {
+    margin-bottom: 60px;
+}
+
+#use-cases h1 {
+    width: fit-content;
+    margin-left: 43.9%;
+    margin-bottom: 60px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0196DD;
+}
+
+#portrait {
+    width: 498px;
+    height: 498px;
+}
+
+#person__leonard,
+#person__michael {
+    width: 85%;
+    margin: auto;
+}
+
+#person__leonard h6 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 0;
+    margin-left: 1px;
+    color: #0A2D44;
+}
+
+#person__leonard h4 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    margin-left: 1px;
+    color: #0A2D44;
+}
+
+#leonard__portrait {
+    float: right;
+    position: relative;
+    bottom: 78px;
+    left: 4px;
+}
+
+#michael__portrait {
+    float: right;
+    position: relative;
+    bottom: 188px;
+    left: 5px;
+}
+
+#person__michael h6 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 0;
+    margin-left: 1px;
+    position: relative;
+    bottom: 63px;
+    width: inherit;
+
+    color: #0A2D44;
+
+}
+
+#person__michael h4 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    margin-left: 1px;
+    position: relative;
+    bottom: 63px;
+
+    color: #0A2D44;
+}
+
+#person__michael div p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin-top: -42px;
+    margin-left: 5px;
+    margin-bottom: 58px;
+}
+
+#person__leonard div p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin-top: 29px;
+    margin-left: 5px;
+    margin-bottom: -13px;
+}
+
+#person__rebecca {
+    width: 85%;
+    margin: auto;
+}
+
+#person__rebecca h6 {
+    width: 40%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-left: 58%;
+    position: relative;
+    bottom: 27px;
+
+    color: #0A2D44;
+}
+
+#person__rebecca h4 {
+    width: inherit;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    margin-right: 4px;
+    margin-left: 15.35%;
+    text-align: end;
+    position: relative;
+    bottom: 35px;
+
+
+    color: #0A2D44;
+}
+
+#person__rebecca div p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin-left: 58.4%;
+    margin-top: -2px;
+    margin-bottom: 3.4%;
+
+    color: #0A2D44;
+}
+
+#rebecca__portrait {
+    float: left;
+    position: relative;
+    bottom: 114px;
+}
+
+#person__michael {
+    margin-top: 260px
+}
+
+#cases__link {
+    position: relative;
+    margin-top: 160px;
+    left: 42.9%;
+    bottom: 1px;
+}
+
+#treatment {
+    width: 100%;
+    height: auto;
+    padding-top: 73px;
+
+    background: #FAFAFA;
+}
+
+#treatment h1 {
+    width: fit-content;
+    margin-left: 43.2%;
+    margin-bottom: 60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+
+    color: #0196DD;
+}
+
+#scopolamint-10mg h5,
+#scopolamint-20mg h5 {
+    width: 324px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+
+    color: #0A2D44;
+
+}
+
+#scopolamint-10mg h5 {
+    margin-left: 25.5%;
+}
+
+#scopolamint-10mg p {
+    width: 70%;
+    margin-left: 25.4%;
+    margin-bottom: 4.5%;
+}
+
+#scopolamint-20mg h5 {
+    margin-left: 16.5%;
+}
+
+#scopolamint-20mg p {
+    width: 60%;
+    margin-left: 16.2%;
+    margin-bottom: 4.5%;
+}
+
+#treatment__preparations div {
+    width: 45%;
+}
+
+#scopolamint-10mg img {
+    margin-left: 9%;
+}
+
+#scopolamint-20mg {
+    margin-left: 3%;
+}
+
+#prescribing-information {
+    width: 100%;
+    max-width: 1200px;
+    height: 364px;
+    padding-top: 11.3%;
+    background: #F5F5F5;
+}
+
+#prescribing-information p {
+    width: 100%;
+    max-width: 848px;
+    margin-left: 15%;
+    margin-bottom: 60px;
+
+    color: #0A2D44;
+}
+
+#prescribing__link {
+    padding-top: 1%;
+    padding-left: 19.5%;
+}
+
+#side-effects {
+    width: 100%;
+    height: 586px;
+    padding-top: 11.3%;
+
+    background: #FAFAFA;
+}
+
+#side-effects h1 {
+    width: fit-content;
+    margin-left: 31.5%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 60px;
+
+    color: #0196DD;
+}
+
+#side-effects p {
+    width: 100%;
+    max-width: 847px;
+    margin-left: 179px;
+    margin-right: auto;
+    margin-bottom: 24px;
+
+    color: #0A2D44;
+}
+
+#contact-us {
+    width: 100%;
+    max-width: 1200px;
+    height: 770px;
+    padding-top: 11.3%;
+
+    background: #F5F5F5;
+}
+
+#contact-us h1 {
+    width: 58%;
+    margin-left: 21.5%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+
+    color: #0196DD;
+}
+
+#contact-us p {
+    width: fit-content;
+    margin-left: 31.3%;
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+    margin-left: 5px;
+    color: #0A2D44;
+}
+
+#contact__link {
+    padding-top: 4%;
+    padding-left: 0;
+}
+
+form {
+    width: 400px;
+    height: 272px;
+    margin-left: 33.6%;
+    margin-top: 50px;
+
+    color: #0A2D44;
+}
+
+input {
+    margin-bottom: 5.5%;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 400px;
+    height: 30px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+input[type="radio"] {
+    width: 39px;
+    height: 20px;
+    vertical-align: sub;
+    margin-top: 13px;
+}
+
+input[type="checkbox"] {
+    width: 23px;
+    height: 26px;
+    margin-right: 16px;
+    margin-left: 93px;
+    vertical-align: top;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    padding-top: 11.8%;
+}
+
+#footer__information {
+    margin-left: 0;
+    margin-top: -7px;
+    width: 61%;
+}
+
+#footer_logo {
+    background: url('./images/footerLogo.png');
+    background-size: cover;
+    width: 240px;
+    height: 73.22px;
+    margin-left: auto;
+    margin-right: 11.6%;
+}
+
+#footer__icons {
+    margin: auto;
+    margin-top: 13%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: 11.6%;
+}
+
+#footer__social {
+    width: 36%;
+    margin-top: -6px;
+}
+
+#footer__social img {
+    margin-left: 3.1%;
+}
+
+#footer__privacy {
+    text-decoration: none;
+    text-decoration-line: underline;
+    width: 75%;
+    margin-top: 3.5%;
+    color: #0A2D44;
+}
+
+footer p {
+    width: 43.5%;
+    height: 40px;
+    margin-top: 28px;
+    padding-top: 33px;
+    margin-left: 28.6%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #0A2D44;
+
+}
+
+#phone-version {
+    display: none;
+}
+
+@media only screen and (max-width: 1110px) {
+    .navbar-text {
+        padding-top: 5px;
+
+    }
+
+    .navbar-text a {
+        font-size: 81%;
+    }
+
+    #home__title div {
+        margin-left: 2%;
+        text-align: center;
+    }
+
+    #home__title article {
+        width: 100%;
+    }
+
+    #points div {
+        width: 32%;
+    }
+
+    #leonard__portrait,
+    #rebecca__portrait,
+    #michael__portrait {
+        width: 50%;
+    }
+
+    #person__rebecca h4,
+    #person__michael h4 {
+        font-size: 25px;
+    }
+
+
+    #use-cases {
+        height: 1863px
+    }
+
+    #treatment__preparations img {
+        width: 100%;
+    }
+
+    #side-effects h1,
+    #detalization h1 {
+        margin: 32px auto;
+    }
+
+
+    #side-effects p,
+    #prescribing-information p {
+        width: 85%;
+        margin: 30px auto;
+    }
+
+    form {
+        margin-left: 0;
+        margin: auto;
+    }
+
+    footer p {
+        margin-left: 0px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 834px) {
+    .navbar-text {
+        display: grid;
+        margin-left: 0;
+    }
+
+    .navbar-text a:nth-child(-n+5) {
+        margin: 0;
+    }
+
+    .navbar-text a {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    #home {
+        flex-wrap: wrap;
+    }
+
+    #home__title {
+        width: 100%;
+    }
+
+    #home__title div {
+        margin-left: 0;
+    }
+
+    #home__photo {
+        width: 75%;
+        margin: 30px auto;
+    }
+
+    #home__title article {
+        font-size: 90%;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 32px;
+    }
+
+    #symptoms {
+        height: 495px;
+    }
+
+    #points {
+        display: block;
+    }
+
+    #points div {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    #detalization {
+        padding-bottom: 40px;
+    }
+
+    #detalization h1 {
+
+        text-align: center;
+    }
+
+    #detalization__graph {
+        display: block;
+        text-align: center;
+    }
+
+    #detalization__graph section {
+        width: 100%;
+        margin: auto;
+        margin-top: 10%;
+        height: 175px;
+    }
+
+    #statistic p {
+        margin-bottom: 5px;
+    }
+
+    #detalization__graph img {
+        float: none;
+        margin: 0;
+        width: 80%;
+    }
+
+    #detalization__link {
+        margin-top: 7%;
+    }
+
+    #use-cases {
+        height: auto;
+    }
+
+    #use-cases h1,
+    #treatment h1 {
+        margin: auto;
+        margin-bottom: 5%;
+    }
+
+    #person__michael {
+        margin-top: 5%;
+    }
+
+    #leonard__portrait,
+    #rebecca__portrait,
+    #michael__portrait {
+        float: none;
+        position: unset;
+        width: 100%;
+    }
+
+    #person__leonard h6,
+    #person__rebecca h6,
+    #person__michael h6 {
+        position: unset;
+        width: fit-content;
+        margin: auto;
+    }
+
+    #person__leonard h4,
+    #person__rebecca h4,
+    #person__michael h4 {
+        position: unset;
+        width: fit-content;
+        margin: auto;
+        font-size: 100%;
+        text-align: center;
+    }
+
+    #person__leonard div p {
+        width: auto;
+    }
+
+    #person__rebecca div p {
+        width: auto;
+        margin: 25px 0px;
+    }
+
+    #person__michael div p {
+        width: auto;
+        margin: 0;
+    }
+
+    #use-cases__persons {
+        margin-bottom: 0px;
+    }
+
+    #cases__link {
+        width: fit-content;
+        position: unset;
+        margin: auto;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+
+    #scopolamint-10mg h5,
+    #scopolamint-20mg h5 {
+        font-size: 80%;
+    }
+
+    #scopolamint-10mg p,
+    #scopolamint-20mg p {
+        width: auto;
+    }
+
+    #prescribing-information {
+        height: 510px;
+    }
+
+    #prescribing__link {
+        display: flex;
+        padding: 0 0 25px 0px;
+    }
+
+    #prescribing__link a {
+        margin: auto;
+    }
+
+    #side-effects {
+        height: auto;
+    }
+
+    #side-effects h1 {
+        width: fit-content;
+        text-align: center;
+    }
+
+    form {
+        width: fit-content;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+    }
+
+    #contact-us p {
+        margin-left: 1%;
+        width: 100%;
+    }
+
+    #contact__link {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    footer {
+        display: block;
+    }
+
+    #footer__privacy {
+        width: auto;
+    }
+
+    #footer__information {
+        width: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    .w-75 {
+        text-align: center;
+    }
+
+    #footer__social {
+        width: auto;
+        margin: auto;
+    }
+
+    #footer__social div {
+        margin: 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    footer p {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .navbar {
+        padding-top: 13px;
+    }
+
+    #logo-container {
+        margin-left: 3px;
+    }
+
+    .navbar-toggler-icon {
+        margin-top: -10px;
+        margin-right: -3px;
+    }
+
+    #home__title h1 {
+        margin: auto;
+        margin-top: 7%;
+        font-size: 65px;
+        width: 50%;
+        height: 168px;
+    }
+
+    #home__title span {
+        position: relative;
+        bottom: 44px;
+    }
+
+    #home__title p {
+        margin: 0;
+    }
+
+    #home__title article {
+        width: 100%;
+        font-size: 16px;
+        padding: 5px 27px 11px 20px;
+        text-align: initial;
+    }
+
+    #home__title a {
+        padding: 15px 108px 13px 107px;
+    }
+
+    #home__photo {
+        width: 100%;
+        margin-top: 71px;
+        margin-bottom: 0px;
+    }
+
+    #symptoms {
+        padding-top: 59px;
+        height: 626px;
+    }
+
+    #points div {
+        margin-top: 39px;
+    }
+
+    #points img {
+        margin-left: -3px;
+        margin-right: 7px;
+    }
+
+    #detalization {
+        padding-top: 7.7%;
+        height: 765px;
+    }
+
+    #detalization__graph img {
+        width: 66%;
+        margin-top: 9px;
+    }
+
+    #detalization__graph section {
+        padding-top: 6px;
+    }
+
+    #statistic p {
+        width: 100%;
+        margin-bottom: 24px;
+        text-align: start;
+        padding: 0px 30px 0px 19px;
+    }
+
+    #detalization__link {
+        height: auto;
+        margin-top: 52px;
+        text-align: center;
+    }
+
+    #detalization__link a {
+        padding: 13px 96px 13px 96px;
+        margin-left: 11px;
+    }
+
+    #use-cases {
+        height: 2985px;
+    }
+
+    #use-cases h1 {
+        padding-top: 4%;
+    }
+
+    #person__leonard,
+    #person__michael {
+        margin-top: 17%;
+        width: 100%;
+    }
+
+    #leonard__portrait,
+    #michael__portrait {
+        margin: 40px 0 9px 0;
+        width: 100%;
+    }
+
+    #person__leonard div p {
+        margin: 25px 13px 0 5px;
+        font-size: 16px;
+    }
+
+    #person__rebecca {
+        width: 100%;
+        margin: 47px 0 0 0;
+    }
+
+    #person__rebecca h4,
+    #person__michael h4,
+    #person__leonard h4 {
+        font-size: 32px;
+    }
+
+    #rebecca__portrait {
+        margin: 0px;
+        margin-top: 24.6%;
+        width: 100%;
+    }
+
+    #person__rebecca div p {
+        margin: 40px 20px 0 5px;
+    }
+
+    #person__michael div p {
+        margin: 25px 26px 25px 7px;
+    }
+
+    #cases__link {
+        padding-top: 33px;
+    }
+
+    #cases__link a {
+        padding: 13px 91px 13px 91px;
+    }
+
+    #treatment {
+        padding-top: 16%;
+    }
+
+    #treatment__preparations {
+        flex-wrap: wrap;
+    }
+
+    #treatment__preparations div {
+        width: 100%;
+        margin: 0;
+    }
+
+    #treatment__preparations img {
+        margin: 26px 0 0 0;
+    }
+
+    #scopolamint-10mg h5 {
+        margin: 45px 0px 0 20px;
+        font-size: 24px;
+    }
+
+    #scopolamint-10mg p,
+    #scopolamint-20mg p {
+        margin: 21px 20px 23px 20px;
+    }
+
+    #scopolamint-20mg img {
+        margin: 24px 0px 0 -1px;
+    }
+
+    #scopolamint-20mg h5 {
+        font-size: 24px;
+        margin: 38px 0 0px 19px;
+    }
+
+    #prescribing__link {
+        padding-top: 2px;
+    }
+
+    #prescribing-information p {
+        margin: 35px 0 0 20px;
+        width: 88.5%;
+    }
+
+    #side-effects {
+        padding-top: 7.5%;
+    }
+
+    #pc-version {
+        display: none;
+    }
+
+    #phone-version {
+        display: block;
+    }
+
+    #phone-version p {
+        margin: 41px 0px -17px 19px;
+        width: 89%;
+    }
+
+    #contact-us {
+        padding-top: 38%;
+        height: 870px;
+    }
+
+    #contact-us h1 {
+        width: 95%;
+        margin: 0px 0 0 9px;
+    }
+
+    #contact-us p {
+        width: 90%;
+        margin: 40px 0 40px 20px;
+        text-align: unset;
+    }
+
+    form {
+        margin: 0 20px 36px 20px;
+
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 106%;
+        margin: 1px 0 23px 1px;
+    }
+
+    input[type="radio"] {
+        margin: 10px 0px 24px 0px;
+    }
+
+    input[type="checkbox"] {
+        margin: -3px 17px 0px 15px;
+    }
+
+    #contact__link a {
+        padding: 11px 108px 14px 108px;
+    }
+
+    #footer__privacy {
+        font-size: 100%;
+        display: grid;
+        text-align: center;
+        margin: -20px 0px 0px 17px;
+        height: 59px;
+    }
+
+    #footer__privacy a {
+        width: fit-content;
+        margin: auto;
+        margin-right: 46px;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    #footer__social div {
+        margin-top: 0;
+    }
+
+    #footer__icons img {
+        margin: 45px 6px 0px 6px;
+    }
+
+    #footer__information {
+        margin-top: 40px;
+    }
+
+    footer p {
+        width: 100%;
+        position: relative;
+        top: 444px;
+        font-size: 12px;
+        padding: 31px 24px 0px 30px;
+    }
+}
